@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Banner -->
+<div class="p-5 mb-4 bg-primary text-white rounded-3">
+    <h1 class="display-5 fw-bold">Welcome to BookShop!</h1>
+    <p class="lead">Thousands of books for every taste and age.</p>
+    <a asp-controller="Books" asp-action="Index" class="btn btn-light btn-lg">
+        Browse the catalog →
+    </a>
+</div>
+
+<!-- Features -->
+<div class="row g-4 mt-2">
+    <div class="col-md-4">
+        <div class="card h-100 text-center p-3">
+            <h3>📦 Fast delivery</h3>
+            <p>Nationwide delivery in 2-5 days.</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 text-center p-3">
+            <h3>💳 Easy payment</h3>
+            <p>We accept all major payment cards.</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 text-center p-3">
+            <h3>🔒 Quality guarantee</h3>
+            <p>Only original editions.</p>
+        </div>
+    </div>
+</div>
